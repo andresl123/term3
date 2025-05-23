@@ -1,27 +1,26 @@
 import "./App.css";
-import BookList from "./components/bookList798.jsx";
+import BookListHeadTable from "./components/bookList798.jsx";
 import {courseData_798} from "./data.js";
+import BookListTable798 from "./components/bookListTable798.jsx";
 
 function App() {
   return (
-    <div>
-      <BookList />
-      <tr>
-          courseCode={courseData_798[0].code}
-          courseName={courseData_798[0].name}
-          roomNumber={courseData_798[0].room}
-      </tr>
-      <tr>
-        <td>MDB110</td>
-        <td>MongoDB</td>
-        <td>Room 102</td>
-      </tr>
-      <tr>
-        <td>JS150</td>
-        <td>JavaScript</td>
-        <td>Room 103</td>
-      </tr>
-    </div>
+      <div>
+          <h1 >Andre SL - 948798</h1>
+          <h2 >Course Schedule - 2025S</h2>
+          <table>
+          <BookListHeadTable />
+              <tbody>
+                  <BookListTable798
+                      code={courseData_798[0].code}
+                      name={courseData_798[0].name}
+                      room={courseData_798[0].room}
+                  />
+                    <BookListTable798 {...courseData_798[1]} />
+                    <BookListTable798 {...courseData_798[2]} />
+              </tbody>
+          </table>
+      </div>
   );
 }
 

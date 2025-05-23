@@ -1,4 +1,4 @@
-/* bookList798.css */
+/*!* bookList798.css *!*/
 
 body {
   font-family: Arial, sans-serif;
@@ -13,9 +13,12 @@ table {
   margin: 30px auto;
   border-collapse: collapse;
   box-shadow: 0 2px 12px rgba(0, 0, 0, 0.1);
-  background-color: #ffffff;
+  background-color: #5b6ec6;
   border-radius: 8px;
   overflow: hidden;
+}
+tbody{
+  background-color: #ffffff;
 }
 
 thead {
@@ -23,12 +26,12 @@ thead {
   color: #000000;
 }
 
-th, td {
+th, td, tr{
   padding: 14px 20px;
-  text-align: left;
+  text-align: center;
   color: #000000;
 }
 
 td {
-  border-bottom: 1px solid #000000;
+  border: 1px solid #000000;
 }

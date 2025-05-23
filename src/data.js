@@ -1,13 +1,13 @@
 export const courseData_798 = [
-  { code: 'CS102', 
-    name: 'Intro to CS', 
-    room: 'Room 204' 
+  { code: 'AB123',
+    name: 'JavaScript1',
+    room: 'Room 101'
  },
-  { code: 'MTH110',
-    name: 'Calculus I', 
-    room: 'Room 301' 
+  { code: 'CD456',
+    name: 'JavaScript2',
+    room: 'Room 102'
   },
-  { code: 'PHY150', 
-    name: 'Physics', 
-    room: 'Room 105' }
+  { code: 'EF789',
+    name: 'JavaScript3',
+    room: 'Room 103' }
 ];
